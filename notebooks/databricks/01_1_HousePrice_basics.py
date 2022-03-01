@@ -97,7 +97,7 @@ warnings.filterwarnings('ignore')
 
 # COMMAND ----------
 
-
+trainDataPath = "/FileStore/train.csv"
 rawData = spark \
     .read \
     .option("header", "true") \
